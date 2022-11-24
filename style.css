@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    outline: 0;
+}
+html,body {
+    height: 100%;
+}
+.div {
+    background-color: rgb(245, 245, 245);
+    width: 300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input {
+    background-color: #aaa;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+.plus , .min {
+    background-color: white;
+    border-end-end-radius: 1px solid black;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    border-radius: 10px;
+}
+.plus:hover, .min:hover {
+    background-color: #343434;
+    color: white;
+    border: 1px solid white;
+}
+.show-value{
+    background-color: white;
+    border-end-end-radius: 1px solid black;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    border-radius: 10px;
+}
+.show-value:hover {
+    background-color: coral;
+    color: white;
+    border: 1px solid white;
+}
